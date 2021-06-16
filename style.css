@@ -1,0 +1,101 @@
+h1{
+    color:darkviolet;
+    margin-left:20px
+}
+
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
+    background-color: cyan;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+h2,p{
+    text-align:center;
+}
+
+.description{
+    background-color: yellow;
+}
+
+.footer{
+    background-color: tomato;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+*{
+    background-color: gold;
+}
+
+.header *{
+    border:none;
+
+}
+
+.menu{
+    
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+a{
+    font-size: larger;
+    margin-left:20px;
+    
+}
+
+a:link{
+    color:navy
+}
+
+a:visited{
+    color:rgb(255, 0, 85)
+}
+
+
+.item{
+
+    position:relative;
+}
+
+.item p{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+
+.item:hover p{
+
+    opacity:1;
+    font-size:xx-large;
+}
+
+.item:hover img{
+
+    opacity:0.33
+}
+
+
+
+
+
+
+
+
+
+/*padding shifts the content inside the box
+
+margin shifts the entire box*/
